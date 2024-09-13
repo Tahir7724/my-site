@@ -39,7 +39,7 @@ const Header = () => {
                     href="https://wa.me/message/XP5DDC7TD3EOI1"
                     className="btn"
                   >
-                    <span>Start a new project</span>
+                    <span>Got an idea</span>
                     <i class="fa fa-rocket rocket-ic"></i>                  </a>
                 
                 </div>
