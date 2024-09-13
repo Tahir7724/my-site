@@ -1,6 +1,7 @@
 const Footer = () => {
   return (
     <div className="footer">
+      
       <div className="footer__builder">
         <div className="container">
           <div className="row">
@@ -14,6 +15,13 @@ const Footer = () => {
                 </a>
                 <a target="_blank" rel="nofollow" href="http://dribble.com/tahir_ux">
                   <i aria-hidden="true" className="fab fa-dribbble" />
+                </a>
+                <a target="_blank" rel="nofollow" href="https://www.instagram.com/tahir_ux?igsh=MWtybmdia2IzM2U5dg==">
+                  <i aria-hidden="true" className="fab fa-instagram" />
+                </a>
+
+                <a target="_blank" rel="nofollow" href="https://wa.me/message/XP5DDC7TD3EOI1">
+                  <i aria-hidden="true" className="fab fa-whatsapp" />
                 </a>
                 {/* <a target="_blank" rel="nofollow" href="http://behance.com">
                   <i aria-hidden="true" className="fab fa-behance" />

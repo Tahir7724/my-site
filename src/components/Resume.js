@@ -154,16 +154,7 @@ const Resume = () => {
                   </div>
                 ))}
               </div>
-              <div className="bts pt-2 pb-5">
-                  <a
-                    target="_blank"
-                    href="../../public/assets/pdf/resume.pdf"
-                    className="btn"
-                  >
-                    <span>Download CV</span>
-                  </a>
-                  
-                </div>
+             
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
               <h5
@@ -213,6 +204,16 @@ const Resume = () => {
                   </div>
                 ))}
               </div>
+              <div className="bts pt-2 pb-5">
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1nCODGEUGQg0sLLQjprQY-uqMaKaJA2wv/view?usp=drive_link"
+                    className="btn"
+                  >
+                    <span>Download CV</span>
+                  </a>
+                  
+                </div>
             </div>
           </div>
           <div className="lui-bgtitle">

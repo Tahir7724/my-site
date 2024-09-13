@@ -1615,7 +1615,7 @@ hr {
 	position: relative;
 	margin-right: 30px;
 	float: left;
-	width: 121px;
+	width: fit-content;
 	font-size: 0;
 }
 
@@ -2535,6 +2535,7 @@ hr {
 .section.hero-started .description {
 	padding: 40px 0 40px 0;
 	font-size: 18px;
+	text-align: justify;
 	max-width: 520px;
 }
 
@@ -2648,8 +2649,12 @@ hr {
 
 .skills-item .text {
 	margin: 0 30px 30px 30px;
+	text-align: justify;
 }
 
+.text {
+    text-align: justify;
+}
 .skills-item .text p {
 	margin: 0;
 }
@@ -2916,6 +2921,7 @@ hr {
 
 .services-item .lui-text {
 	min-height: 175px;
+	text-align: justify;
 }
 
 .services-item .image,
@@ -5648,3 +5654,20 @@ a.wp-block-button__link {
 .badge-cust a:hover {
     color: #eeeeee;
 }
+
+.service-icon {
+	padding: 20px 0;;
+}
+.service-icon img {
+	width: 40px;
+	height: 40px;
+
+}
+
+.rocket-ic {
+	padding-left: 8px; 
+	 
+	text-align: center;
+}
+
+ 

@@ -24,15 +24,25 @@ const Header = () => {
             <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
               {/* logo */}
               <div className="logo">
-                <Link href="/" legacyBehavior>
-                  <a>
-                    {/* <img
+                <Link href="https://wa.me/message/XP5DDC7TD3EOI1" legacyBehavior>
+                  {/* <a>
+                    <img
                       width={228}
                       height={38}
                       src="#"
                       alt=""
-                    /> */}
-                  </a>
+                    />
+                  </a> */}
+               <div className="bts top-button">
+                  <a
+                    target="_blank"
+                    href="https://wa.me/message/XP5DDC7TD3EOI1"
+                    className="btn"
+                  >
+                    <span>Start a new project</span>
+                    <i class="fa fa-rocket rocket-ic"></i>                  </a>
+                
+                </div>
                 </Link>
               </div>
             </div>

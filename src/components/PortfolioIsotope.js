@@ -56,7 +56,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="#">
                     <a>
                       <img
                         decoding="async"
@@ -71,14 +71,14 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category badge-cust">Apps UI UX Design  <a class=" badge badge-light bg-danger p-1">E-Commerece </a> </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>AROMA Mobile App </a>
+                  <Link legacyBehavior href="#">
+                    <a>ROMA OPTICAl Mobile App </a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  Roma Optical is a leading company in the field of colored and Clear contact lenses and artificial eyelashes and E-Commerece for different produts.
+
                   </p>
                 </div>
                 <Link legacyBehavior target="_blank" href="https://romaopticals.com/en">
@@ -101,7 +101,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="#">
                     <a>
                       <img
                         decoding="async"
@@ -118,7 +118,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
              
 
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="#">
                     <a>TRP</a>
                   </Link>
                 </h5>
@@ -128,7 +128,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                   inventory, customers, employees, accounts, and work cycle.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="#">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -163,14 +163,13 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 <span className="category badge-cust">WEB UI UX Design <a class=" badge badge-light bg-danger p-1">E-Commerece </a> </span>
             
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="#">
                     <a>Mattressland</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  Redesigned Mattressland.ae, enhancing user navigation, simplifying the checkout process, and improving the overall shopping experience for the UAE’s top online mattress store.
                   </p>
                 </div>
                 <Link legacyBehavior href="https://www.mattressland.ae/home?utm_source=google&utm_source=google&utm_medium=cpc&utm_medium=cpc&utm_campaign=search_brand_dubai&utm_campaign=13087469409&utm_term=brand_dubai&utm_term=matressland&utm_content=123961480684&gad_source=1&gclid=CjwKCAjwooq3BhB3EiwAYqYoEsad_Plz2APPY-LHKnkzLO4n728ftTkAmT_RALjkjuteWC7vT1Ep5hoCdyYQAvD_BwE">
@@ -192,7 +191,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="#">
                     <a>
                       <img
                         decoding="async"
@@ -207,7 +206,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="desc">
                 <span className="category badge-cust"> APPS UI UX Design <a class=" badge badge-light bg-danger p-1"> Health Care </a></span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="#">
                     <a>MUTKAMIL</a>
                   </Link>
                 </h5>
@@ -217,7 +216,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="#">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -236,11 +235,11 @@ const PortfolioIsotope = ({ noViewMore }) => {
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="#">
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/portf/home.png"
+                        src="assets/images/portf/dha.png"
                         alt="Gooir"
                       />
                       <span className="overlay" />
@@ -249,20 +248,19 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> APPS UI UX Design </span>
-                
+                <span className="category  badge-cust"> APPS UI UX Design <a class=" badge badge-light bg-dark p-1"><i className="fa fa-lock"> </i> Confidential </a></span>
+            
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>SMART HOME</a>
+                  <Link legacyBehavior href="#">
+                    <a>Dubai Health Authority</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  Dubai Health Authority (DHA) provides complete oversight of the regulation and governance of the healthcare sector within the emirate of Dubai.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="#">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -297,14 +295,13 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 <span className="category badge-cust"> Web UI UX Design <a class=" badge badge-light bg-danger p-1"> E-Commerce </a></span>
  
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>AROMA  WEBSITE</a>
+                  <Link legacyBehavior href="#">
+                    <a>ROMA OPTICAl WEBSITE</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  Roma Optical is a leading company in the field of colored and Clear contact lenses and artificial eyelashes and E-Commerece for different produts.
                   </p>
                 </div>
                 <Link legacyBehavior href="https://romaopticals.com/en">

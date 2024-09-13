@@ -13,6 +13,7 @@ const PortfolioIsotope = dynamic(
     ssr: false,
   }
 );
+
 const Index = () => {
   return (
     <Layout pageClassName={"home"}>
@@ -42,7 +43,7 @@ const Index = () => {
                     data-animate="active"
                   >
                     <span>
-                      <b>ALTAHIR</b> Elsharief{" "}
+                      <b>ALTAHIR</b> Ibrahim{" "}
                     </span>
                   </h1>
                   <div className="label lui-subtitle">
@@ -53,15 +54,10 @@ const Index = () => {
                 <div className="description">
                   <div>
                     <p>
-                      With +6 years intotal and 1 year of experience as a
-                      seasoned UI/UX designer in the UAE, I specialize in
-                      creating intuitive digital experiences centered on user
-                      satisfaction. Proficient in all design stages, I leverage
-                      user-centered design principles and stay updated on
-                      industry trends. With 4 years of expertise in Figma I
-                      excel in utilizing variables, components, and design
-                      systems to deliver impactful solutions efficiently and
-                      with over 6 years of expertise in AdobeXD.
+                      With over 6 years of experience as a seasoned UI/UX designer, I've honed my craft in creating
+digital experiences that not only look great but feel intuitive and satisfying for users. Throughout
+every stage of the design process, I'm guided by a deep understanding of user-centered
+principles and a commitment to staying abreast of the latest industry trends.
                     </p>
                   </div>
                   <div className="social-links">
@@ -71,12 +67,20 @@ const Index = () => {
                 <a target="_blank" rel="nofollow" href="http://www.dribbble.com/tahir_ux">
                   <i aria-hidden="true" className="fab fa-dribbble" />
                 </a>
+
+                <a target="_blank" rel="nofollow" href="https://www.instagram.com/tahir_ux?igsh=MWtybmdia2IzM2U5dg==">
+                  <i aria-hidden="true" className="fab fa-instagram" />
+                </a>
+
+                <a target="_blank" rel="nofollow" href="https://wa.me/message/XP5DDC7TD3EOI1">
+                  <i aria-hidden="true" className="fab fa-whatsapp" />
+                </a>
                   </div>
                 </div>
                 <div className="bts">
                   <a
                     target="_blank"
-                    href="https://drive.google.com/"
+                    href="https://drive.google.com/file/d/1nCODGEUGQg0sLLQjprQY-uqMaKaJA2wv/view?usp=drive_link"
                     className="btn"
                   >
                     <span>Download CV</span>
@@ -181,17 +185,17 @@ const Index = () => {
             >
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
+                <div className="service-icon">
+                   <img src="assets/images/icons/search.png" alt="" />
+                  </div>
                   {/* <div className="icon" /> */}
                   <h5 className="lui-title">
-                    <span> UX Design </span>
+                    <span> Research </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      I deliver transformative UX design by leveraging
-                      comprehensive research and testing. My approach ensures
-                      intuitive, user-centered experiences that drive engagement
-                      and satisfaction, with both user needs and business goals.{" "}
+                      Conducted in-depth analysis of user behavior to extract actionable insights, driving strategic and impactful design solutions that elevate user experiences.{" "}
                     </div>
                   </div>
                   {/* <a href="#pricing-section" className="lnk">
@@ -208,17 +212,16 @@ const Index = () => {
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
+                <div className="service-icon">
+                   <img src="assets/images/icons/smartphone.png" alt="" />
+                  </div>
                   <h5 className="lui-title">
-                    <span> UI Mobile &amp; Web Design </span>
+                    <span> UI Design </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       <p>
-                        I specialize in designing intuitive, user-centered
-                        interfaces for both mobile and web platforms. My focus
-                        is on creating visually appealing, responsive, and
-                        accessible designs that offer seamless user experiences
-                        across devices.
+                      Transforming ideas into visually powerful, intuitive, and user-centered designs that drive engagement and deliver impactful solutions.
                       </p>
                     </div>
                   </div>
@@ -236,16 +239,17 @@ const Index = () => {
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
+                <div className="service-icon">
+                   <img src="assets/images/icons/document.png" alt="" />
+                  </div>
                   <h5 className="lui-title">
-                    <span> UI Development</span>
+                    <span> Usability  & Heuristic Analysis</span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      I specialize in React UI development, creating dynamic and
-                      responsive user interfaces that enhance performance and
-                      user experience. By leveraging React’s component-based , I
-                      build scalable, maintainable, and interactive apps.{" "}
+                      Quickly identify usability issues and boost product efficiency with expert evaluations and audits
+                      .{" "}
                     </div>
                   </div>
                   {/* <a href="#pricing-section" className="lnk">
@@ -261,8 +265,99 @@ const Index = () => {
                 </div>
               </SwiperSlide>
 
-              <div className="swiper-pagination" />
+              {/* <div className="swiper-pagination" /> */}
             </Swiper>
+            <Swiper
+              {...servicesSliderProps}
+              className="swiper-container js-services scrolla-element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <SwiperSlide className="swiper-slide">
+                <div className="services-item">
+                  {/* <div className="icon" /> */}
+                  <div className="service-icon">
+                   <img src="assets/images/icons/light.png" alt="" />
+                  </div>
+                  <h5 className="lui-title">
+                    <span> Design Thinking </span>
+                  </h5>
+                  <div className="lui-text">
+                    <div>
+                      {" "}
+                      
+
+Ignite innovation with dynamic, collaborative problem-solving sessions that transform ideas into impactful solutions through structured, creative thinking
+                      .{" "}
+                    </div>
+                  </div>
+                  {/* <a href="#pricing-section" className="lnk">
+                    {" "}
+                    See Pricing{" "}
+                  </a> */}
+                  <div
+                    className="image"
+                    style={{
+                      backgroundImage: "url(assets/images/pat-2.png)",
+                    }}
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="services-item">
+                <div className="service-icon">
+                   <img src="assets/images/icons/apps.png" alt="" />
+                  </div>
+                  <h5 className="lui-title">
+                    <span> Design Systems </span>
+                  </h5>
+                  <div className="lui-text">
+                    <div>
+                      <p>
+                      Crafted a robust design system in Figma, integrating scalable tokens and reusable components to ensure consistency and efficiency across projects.</p>
+                    </div>
+                  </div>
+                  {/* <a href="#pricing-section" className="lnk">
+                    {" "}
+                    See Pricing{" "}
+                  </a> */}
+                  <div
+                    className="image"
+                    style={{
+                      backgroundImage: "url(assets/images/pat-2.png)",
+                    }}
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="services-item">
+                  <div className="service-icon">
+                   <img src="assets/images/icons/reservation-smartphone.png" alt="" />
+                  </div>
+                  <h5 className="lui-title">
+                    <span>Usability Testing</span>
+                  </h5>
+                  <div className="lui-text">
+                    <div>
+                      {" "}
+                      Optimize designs with precise usability testing and rapid prototyping for seamless, user-centric experiences
+
+                      .{" "}
+                    </div>
+                  </div>
+                  {/* <a href="#pricing-section" className="lnk">
+                    {" "}
+                    See Pricing{" "}
+                  </a> */}
+                  <div
+                    className="image"
+                    style={{
+                      backgroundImage: "url(assets/images/pat-2.png)",
+                    }}
+                  />
+                </div>
+              </SwiperSlide>
+
+             </Swiper>
             <div className="lui-bgtitle">
               <span> Services </span>
             </div>
@@ -291,8 +386,11 @@ const Index = () => {
                 <span>
                   {" "}
                   my <b>Talent</b>{" "}
+
                 </span>
+               
               </div>
+              <p>Explore a range of services tailored to elevate your project. From UX/UI design and research to information architecture and prototyping</p>
             </div>
           </div>
         </div>
@@ -537,7 +635,7 @@ const Index = () => {
                       <span> Address </span>
                     </div>
                     <div className="lui-text">
-                      <span> North Tower, Toronto, Canada </span>
+                      <span>Dubai , United Arab Emirates</span>
                     </div>
                   </div>
                   <div
@@ -602,7 +700,7 @@ const Index = () => {
                           <div className="group">
                             <label>
                               Your Full Name <b>*</b>
-                              <input type="text" name="name" />
+                              <input type="text" name="name" required/>
                             </label>
                           </div>
                         </div>
@@ -610,7 +708,7 @@ const Index = () => {
                           <div className="group">
                             <label>
                               Your Email Address <b>*</b>
-                              <input type="email" name="email" />
+                              <input type="email" name="email" required/>
                             </label>
                           </div>
                         </div>
@@ -618,7 +716,7 @@ const Index = () => {
                           <div className="group">
                             <label>
                               Your Subject <b>*</b>
-                              <input type="text" name="subject" />
+                              <input type="text" name="subject" required />
                             </label>
                           </div>
                         </div>
@@ -626,7 +724,7 @@ const Index = () => {
                           <div className="group">
                             <label>
                               Your Message <b>*</b>
-                              <textarea name="message" defaultValue={""} />
+                              <textarea name="message" defaultValue={""} required />
                             </label>
                           </div>
                         </div>

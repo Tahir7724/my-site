@@ -346,6 +346,51 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
               />
             </div>
           </div>
+
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+            <div
+              className="works-item scrolla-element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <div className="image">
+                <div className="img">
+                  <Link legacyBehavior href="/work-single">
+                    <a>
+                      <img
+                        decoding="async"
+                        src="assets/images/single6.jpg"
+                        alt="Kana"
+                      />
+                      <span className="overlay" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="desc">
+                <span className="category"> Development, Photography </span>
+                <h5 className="name">
+                  <Link legacyBehavior href="/work-single">
+                    <a>Kana</a>
+                  </Link>
+                </h5>
+                <div className="text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore.
+                  </p>
+                </div>
+                <Link legacyBehavior href="/work-single">
+                  <a className="lnk">See project</a>
+                </Link>
+              </div>
+              <div
+                className="bg-img"
+                style={{
+                  backgroundImage: "url(assets/images/pat-2.png)",
+                }}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </Fragment>
