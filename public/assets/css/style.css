@@ -2907,6 +2907,7 @@ hr {
 	padding: 30px 35px;
 	background: #fff;
 	border-radius: 18px;
+	border: 1px solid #29a5875c;
 }
 
 .services-item:first-child {
