@@ -39,9 +39,7 @@ const Header = () => {
                     href="https://wa.me/message/XP5DDC7TD3EOI1"
                     className="btn"
                   >
-                    <span> 
-                    Got an idea
-                    </span>
+                    <span>Start a new project</span>
                     <i class="fa fa-rocket rocket-ic"></i>                  </a>
                 
                 </div>
@@ -106,7 +104,7 @@ const Header = () => {
                         <div className="menu-full">
                           <ul className="menu-full">
                             <li className="menu-item">
-                              <Link legacyBehavior href="/">
+                              <Link legacyBehavior href="/#services-section">
                                 <a
                                   className="splitting-text-anim-2"
                                   data-splitting="chars"
