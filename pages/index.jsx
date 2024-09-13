@@ -176,28 +176,29 @@ principles and a commitment to staying abreast of the latest industry trends.
           </div>
         </div>
         {/* Services */}
+
         <div className="v-line v-line-right">
           <div className="container">
-            <Swiper
-              {...servicesSliderProps}
-              className="swiper-container js-services scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <SwiperSlide className="swiper-slide">
+            
+          <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">    
                 <div className="services-item">
-                <div className="service-icon">
+                  <div className="service-icon">
                    <img src="assets/images/icons/search.png" alt="" />
                   </div>
+
                   {/* <div className="icon" /> */}
                   <h5 className="lui-title">
                     <span> Research </span>
                   </h5>
+
                   <div className="lui-text">
                     <div>
                       {" "}
-                      Conducted in-depth analysis of user behavior to extract actionable insights, driving strategic and impactful design solutions that elevate user experiences.{" "}
+                      Conducted in-depth analysis of user behavior to extract actionable insights, driving strategic and impactful design solutions.{" "}
                     </div>
                   </div>
+
                   {/* <a href="#pricing-section" className="lnk">
                     {" "}
                     See Pricing{" "}
@@ -209,9 +210,10 @@ principles and a commitment to staying abreast of the latest industry trends.
                     }}
                   />
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
+              </div>   
+
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">      
+              <div className="services-item">
                 <div className="service-icon">
                    <img src="assets/images/icons/smartphone.png" alt="" />
                   </div>
@@ -236,14 +238,15 @@ principles and a commitment to staying abreast of the latest industry trends.
                     }}
                   />
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
+              </div>  
+
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">    
+                <div className="services-item services-item-card">
                 <div className="service-icon">
                    <img src="assets/images/icons/document.png" alt="" />
                   </div>
                   <h5 className="lui-title">
-                    <span> Usability  & Heuristic Analysis</span>
+                    <span> Usability Testing</span>
                   </h5>
                   <div className="lui-text">
                     <div>
@@ -263,16 +266,9 @@ principles and a commitment to staying abreast of the latest industry trends.
                     }}
                   />
                 </div>
-              </SwiperSlide>
-
-              {/* <div className="swiper-pagination" /> */}
-            </Swiper>
-            <Swiper
-              {...servicesSliderProps}
-              className="swiper-container js-services scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <SwiperSlide className="swiper-slide">
+              </div>
+         
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">     
                 <div className="services-item">
                   {/* <div className="icon" /> */}
                   <div className="service-icon">
@@ -286,7 +282,7 @@ principles and a commitment to staying abreast of the latest industry trends.
                       {" "}
                       
 
-Ignite innovation with dynamic, collaborative problem-solving sessions that transform ideas into impactful solutions through structured, creative thinking
+                  Ignite innovation with dynamic, collaborative problem-solving sessions that transform ideas into impactful solutions through structured, creative thinking
                       .{" "}
                     </div>
                   </div>
@@ -301,8 +297,10 @@ Ignite innovation with dynamic, collaborative problem-solving sessions that tran
                     }}
                   />
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
+                </div> 
+             
+
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">   
                 <div className="services-item">
                 <div className="service-icon">
                    <img src="assets/images/icons/apps.png" alt="" />
@@ -327,8 +325,9 @@ Ignite innovation with dynamic, collaborative problem-solving sessions that tran
                     }}
                   />
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
+              </div>
+
+              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">   
                 <div className="services-item">
                   <div className="service-icon">
                    <img src="assets/images/icons/reservation-smartphone.png" alt="" />
@@ -355,14 +354,15 @@ Ignite innovation with dynamic, collaborative problem-solving sessions that tran
                     }}
                   />
                 </div>
-              </SwiperSlide>
-
-             </Swiper>
+              </div>
+           </div>
+              
             <div className="lui-bgtitle">
               <span> Services </span>
-            </div>
+            </div> 
           </div>
         </div>
+       
       </section>
 
       {/* Section - Skills */}

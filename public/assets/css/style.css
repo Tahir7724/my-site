@@ -1615,7 +1615,7 @@ hr {
 	position: relative;
 	margin-right: 30px;
 	float: left;
-	width: fit-content;
+	width: 220px;
 	font-size: 0;
 }
 
@@ -2886,7 +2886,9 @@ hr {
 .js-services .swiper-wrapper .swiper-slide-visible .services-item {
 	opacity: 1;
 }
-
+/* .services-item-card{
+	margin:  16px 0;
+} */
 .services-items {
 	margin-top: -40px;
 	display: flex;
@@ -2908,7 +2910,7 @@ hr {
 }
 
 .services-item:first-child {
-	margin-top: 0;
+	margin-top: 16px;
 }
 
 .services-item .icon {
